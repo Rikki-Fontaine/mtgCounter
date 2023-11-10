@@ -10,10 +10,10 @@
 
 <div class="flex justify-center">
 
-    <div class="border border-black w-fit p-1 {bgColor} rounded-md">
+    <div class="border-2 shadow-md shadow-black border-black w-fit p-1 {bgColor} rounded-md">
 
         <div class="flex justify-center">
-            <img src={imagesrc} alt="pixel heart" width=50 class="shadow-black border bg-orange-300 border-black shadow-inner">
+            <img src={imagesrc} alt="pixel heart" width=50 class="shadow-black border-4 bg-orange-300 border-black shadow-inner">
         </div>   
 
         <div class="flex w-full justify-center"> 

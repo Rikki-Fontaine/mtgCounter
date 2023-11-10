@@ -13,7 +13,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
-					class="btn btn-sm variant-ghost-surface"
+					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
 					href="https://discord.gg/EXqV7W8MtY"
 					target="_blank"
 					rel="noreferrer"
@@ -21,7 +21,7 @@
 					20
 				</a>
 				<a
-					class="btn btn-sm variant-ghost-surface"
+					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
 					href="https://twitter.com/SkeletonUI"
 					target="_blank"
 					rel="noreferrer"
@@ -29,7 +29,7 @@
 					30
 				</a>
 				<a
-					class="btn btn-sm variant-ghost-surface"
+					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
 					href="https://github.com/skeletonlabs/skeleton"
 					target="_blank"
 					rel="noreferrer"
