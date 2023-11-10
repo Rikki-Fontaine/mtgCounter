@@ -9,7 +9,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Skeleton</strong>
+				<strong class="text-xl uppercase">Set Life Total:</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
@@ -18,7 +18,7 @@
 					target="_blank"
 					rel="noreferrer"
 				>
-					Discord
+					20
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"
@@ -26,7 +26,7 @@
 					target="_blank"
 					rel="noreferrer"
 				>
-					Twitter
+					30
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"
@@ -34,7 +34,7 @@
 					target="_blank"
 					rel="noreferrer"
 				>
-					GitHub
+					40
 				</a>
 			</svelte:fragment>
 		</AppBar>
