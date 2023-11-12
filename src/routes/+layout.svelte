@@ -1,6 +1,26 @@
 <script lang="ts">
 	import '../app.postcss';
+	import {life} from "../store"
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+
+
+
+	let lifeTotal;
+    const unsubscribe = life.subscribe((value) => {
+		lifeTotal = value;
+	});
+
+	function life20() {
+		life.set(20);
+	}
+
+	function life30() {
+		life.set(30);
+	}
+
+	function life40() {
+		life.set(40);
+	}
 </script>
 
 <!-- App Shell -->
@@ -12,30 +32,27 @@
 				<strong class="text-xl uppercase">Set Life Total:</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a
+				<button
 					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
-					href="https://discord.gg/EXqV7W8MtY"
-					target="_blank"
-					rel="noreferrer"
-				>
+					on:click={life20}
+					>
 					20
-				</a>
-				<a
-					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
-					href="https://twitter.com/SkeletonUI"
-					target="_blank"
-					rel="noreferrer"
+				</button>
+
+				<button
+				class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
+				on:click={life30}
 				>
-					30
-				</a>
-				<a
-					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
-					href="https://github.com/skeletonlabs/skeleton"
-					target="_blank"
-					rel="noreferrer"
+				30
+				</button>
+
+				<button
+				class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
+				on:click={life40}
 				>
-					40
-				</a>
+				40
+				</button>
+			
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>

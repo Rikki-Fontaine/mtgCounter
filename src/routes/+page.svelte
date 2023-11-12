@@ -1,5 +1,6 @@
 <script>
 	import Counter from "../components/counter.svelte";
+	import LifeCounter from "../components/lifeCounter.svelte";
 	import heart from "$lib/heart.png"
 	import poison from "$lib/poison.png"
 	import medal from "$lib/commdmedal.png"
@@ -7,7 +8,7 @@
 
 <div class="border border-teal-600 rounded-full py-20 md:p-2">
 	<div class="flex justify-center gap-4 mb-5">
-		<Counter bgColor = "bg-neutral-300" imagesrc={heart} counterBg="bg-slate-800"/>
+		<LifeCounter bgColor = "bg-neutral-300" imagesrc={heart} counterBg="bg-slate-800"/>
 	</div>
 	
 	<div class="flex justify-around mb-5">
