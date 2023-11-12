@@ -33,21 +33,21 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<button
-					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
+					class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-tertiary"
 					on:click={life20}
 					>
 					20
 				</button>
 
 				<button
-				class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
+				class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-tertiary"
 				on:click={life30}
 				>
 				30
 				</button>
 
 				<button
-				class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-primary"
+				class="btn btn-sm variant-filled-secondary border text-black border-black shadow-md shadow-black hover:variant-filled-tertiary"
 				on:click={life40}
 				>
 				40
